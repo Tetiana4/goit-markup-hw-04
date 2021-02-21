@@ -135,8 +135,6 @@ footer {
 
 .site-link:hover,
 .site-link:focus,
-.address-link:hover,
-.address-link:focus,
 .footer-link:hover,
 .footer-link:focus {
   color: var(--blue);
@@ -163,9 +161,13 @@ footer {
   align-items: center;
 }
 
-.address-link svg:hover,
-.address-link svg:focus {
-  fill: var(--blue);
+svg:hover,
+svg:focus {
+  fill: currentColor;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--blue);
 }
 
 .icon-mail {
@@ -481,60 +483,15 @@ footer {
   align-items: center;
   border: 1px solid var(--grey-border);
   border-radius: 4px;
+  fill: var(--grey-border);
 }
 
 .costumer-link:hover,
 .costumer-link:focus {
   border: 1px solid var(--blue);
-  color: var(--blue);
+  fill: var(--blue);
 }
 
-.costumer-icon-one {
-  width: 44.27px;
-  height: 49.23px;
-  fill: var(--grey-border);
-}
-
-.costumer-icon-one:hover,
-.costumer-icon-one:focus,
-.costumer-icon-two:hover,
-.costumer-icon-two:focus,
-.costumer-icon-three:hover,
-.costumer-icon-three:focus,
-.costumer-icon-four:hover,
-.costumer-icon-four:focus,
-.costumer-icon-five:hover,
-.costumer-icon-five:focus,
-.costumer-icon-six:hover,
-.costumer-icon-six:focus {
-  fill: currentColor;
-}
-
-.costumer-icon-two {
-  width: 40px;
-  height: 52px;
-  fill: var(--grey-border);
-}
-.costumer-icon-three {
-  width: 41px;
-  height: 42.6px;
-  fill: var(--grey-border);
-}
-.costumer-icon-four {
-  width: 79.66px;
-  height: 42.02px;
-  fill: var(--grey-border);
-}
-.costumer-icon-five {
-  width: 59px;
-  height: 47px;
-  fill: var(--grey-border);
-}
-.costumer-icon-six {
-  width: 88.48px;
-  height: 45.44px;
-  fill: var(--grey-border);
-}
 .costumers li:not(:last-child) {
   margin-right: 30px;
 }
