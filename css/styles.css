@@ -407,10 +407,8 @@ footer {
 .media {
   justify-content: space-between;
   display: inline-flex;
-
-  /* display: inline-block;
-  display: flex;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 .media > li:not(:last-child) {
   margin-right: 10px;
@@ -425,6 +423,9 @@ footer {
   width: 44px;
   border: none;
   padding: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .social:hover,
@@ -684,6 +685,8 @@ footer {
   display: inline-block;
   display: flex;
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 
   /* justify-content: center; */
 }
@@ -700,6 +703,9 @@ footer {
   width: 44px;
   height: 44px;
   background-color: var(--back-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link-social:hover,
 .link-social:focus {
