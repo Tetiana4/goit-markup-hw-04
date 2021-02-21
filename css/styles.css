@@ -161,10 +161,6 @@ footer {
   align-items: center;
 }
 
-svg:hover,
-svg:focus {
-  fill: currentColor;
-}
 .address-link:hover,
 .address-link:focus {
   color: var(--blue);
@@ -177,7 +173,7 @@ svg:focus {
   width: 16px;
   height: 12px;
   background-image: url(../images/icons.svg/header1.svg);
-
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -188,6 +184,7 @@ svg:focus {
   height: 16px;
   background-image: url(../images/icons.svg/header2.svg);
   margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Hero */
@@ -335,8 +332,6 @@ svg:focus {
 
 .images {
   display: flex;
-  /* padding-top: 50px; */
-  /* margin-bottom: 0; */
   padding-left: 0;
   padding-right: 0;
 }
@@ -644,15 +639,16 @@ svg:focus {
   margin-top: 20px;
   justify-content: center;
   align-items: center;
-
-  /* justify-content: center; */
 }
+
 .media-footer > li:not(:last-child) {
   margin-right: 10px;
 }
+
 .madia-footer > li {
   color: var(--back-white);
 }
+
 .link-social {
   display: inline-block;
   border-radius: 50%;
@@ -664,6 +660,7 @@ svg:focus {
   justify-content: center;
   align-items: center;
 }
+
 .link-social:hover,
 .link-social:focus {
   background-color: var(--blue);
